@@ -1,5 +1,8 @@
 body {
   background-color: #1e1e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -44,7 +47,7 @@ ul {
   width: 90%;
   list-style-type: " > ";
   padding-top: 2%;
-  padding-left: 5%;
+  margin: 5%;
   padding-bottom: 2%;
 }
 
@@ -63,6 +66,7 @@ ul {
   margin: auto;
   width: 80%;
   border-radius: 1em;
+  margin-left: 10%;
 }
 
 .console:hover {
