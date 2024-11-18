@@ -1,0 +1,16 @@
+.goback {
+  text-align: left;
+  color: #a5adce;
+  font-family: Consolas;
+  text-decoration: none;
+  padding-left: 2%;
+}
+
+.goback:hover {
+  color: #a5adce;
+  text-decoration: underline;
+}
+
+.description {
+  padding-left: 15%;
+}

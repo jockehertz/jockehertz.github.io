@@ -1,0 +1,100 @@
+body {
+  background-color: #1e1e2e;
+}
+
+h1 {
+  padding-top: 5%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Consolas, monospace;
+  color: #b4befe;
+}
+
+h2 {
+  font-family: Consolas;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 2%;
+  color: #94e2d5;
+}
+
+h3 {
+  padding-top: 2%;
+  font-family: Consolas;
+  font-weight: bold;
+  text-decoration: italic;
+  color: #f9e2af;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+
+p {
+  font-family: Consolas;
+  color: #cdd6f4;
+}
+
+li {
+  font-family: Consolas;
+  width: 100%;
+  color: #cdd6f4;
+}
+
+ul {
+  width: 90%;
+  list-style-type: " > ";
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+
+.title-anchor {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.title-anchor:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.console {
+  background-color: #181825;
+  margin: auto;
+  width: 80%;
+  border-radius: 1em;
+}
+
+.console:hover {
+  background-color: #11111b;
+}
+
+.blinking {
+  animation: blinker 1s ease infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.inline-anchor {
+  color: #cdd6f4;
+  font-family: Consolas;
+  text-decoration: none;
+}
+
+.inline-anchor:hover {
+  text-decoration:underline;
+  color: #cdd6f4;
+}
+
+.hidden {
+  padding-left: 5%;
+  display: inline;
+  color: transparent;
+  text-decoration: none;
+  font-weight: normal;
+}
+
