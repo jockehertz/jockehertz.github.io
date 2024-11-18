@@ -3,16 +3,19 @@
   color: #a5adce;
   font-family: Consolas;
   text-decoration: none;
-  padding-left: 2%;
+  padding-left: 4%;
+  font-size: large;
 }
 
+#goback_div {
+  padding-top: 2%;
+}
 .goback:hover {
   color: #a5adce;
   text-decoration: underline;
 }
 
 div {
-  justify-content: center;
   width: 100%;
 }
 
