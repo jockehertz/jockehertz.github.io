@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: joakimhertzberg.github.io/
+      url: "https://joakimhertzberg.github.io/"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
