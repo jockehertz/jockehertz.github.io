@@ -12,6 +12,6 @@
 }
 
 .description {
-  padding-left: 15%;
-  padding-right: 15%;
+  align: center;
+  width: 80%;
 }
