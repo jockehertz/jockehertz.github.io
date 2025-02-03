@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-family: Consolas;
+  font-family: Consolas, monospace;
   font-weight: bold;
   text-align: left;
   padding-left: 10%;
@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   padding-top: 2%;
-  font-family: Consolas;
+  font-family: Consolas, monospace;
   font-weight: bold;
   text-decoration: italic;
   color: #f9e2af;
@@ -33,12 +33,12 @@ h3 {
 }
 
 p {
-  font-family: Consolas;
+  font-family: Consolas, monospace;
   color: #cdd6f4;
 }
 
 li {
-  font-family: Consolas;
+  font-family: Consolas, monospace;
   width: 100%;
   color: #cdd6f4;
 }
