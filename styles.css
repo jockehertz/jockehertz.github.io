@@ -85,7 +85,7 @@ ul {
 
 .inline-anchor {
   color: #cdd6f4;
-  font-family: Consolas;
+  font-family: Consolas, monospace;
   text-decoration: none;
 }
 
